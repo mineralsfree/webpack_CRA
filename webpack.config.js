@@ -28,5 +28,11 @@ module.exports = {
   },
   plugins: [new CleanWebpackPlugin(),
     new HtmlWebpackPlugin(),
-  ]
+  ],
+  devServer: {
+    hot: true,
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  }
 };

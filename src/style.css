@@ -10,7 +10,6 @@ body{
     border: 3px solid transparent;
     display: inline-block;
     padding: 0.3em 0.6em ;
-    border-image: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
     min-width: 50px;
 }
 .text:first-of-type{
